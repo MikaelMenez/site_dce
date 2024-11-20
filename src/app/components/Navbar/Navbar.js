@@ -15,7 +15,13 @@ export default function Navbar() {
               <i className="fas fa-times"></i>
             </label>
             <li>
-              <a href="#manual-dos-feras">Manual dos Feras</a>
+              <a href="#manual-dos-feras">Manual do Fera</a>
+            </li>
+            <li>
+              <a href="#noticias">Representação Estudantil</a>
+            </li>
+            <li>
+              <a href="#noticias">Carteirinha</a>
             </li>
             <li>
               <a href="#noticias">Notícias</a>
@@ -24,7 +30,7 @@ export default function Navbar() {
               <a href="#contatos">Contatos</a>
             </li>
             <li>
-              <a href="#ouvidoria-faq">Ouvidoria/FAQ</a>
+              <a href="#ouvidoria-faq">Ouvidoria</a>
             </li>
             {/* Dropdown Menu */}
             <li>
@@ -38,39 +44,36 @@ export default function Navbar() {
             </li>
             {/* Mega Menu */}
             <li>
-              <a href="#" className="desktop-item">Mega Menu</a>
+              <a href="#" className="desktop-item">Diretorias</a>
               <input type="checkbox" id="showMega" />
-              <label htmlFor="showMega" className="mobile-item">Mega Menu</label>
+              <label htmlFor="showMega" className="mobile-item">Diretorias</label>
               <div className="mega-box">
                 <div className="content">
                   <div className="row">
-                    <img src="https://fadzrinmadu.github.io/hosted-assets/responsive-mega-menu-and-dropdown-menu-using-only-html-and-css/img.jpg" alt=""/>
+                    <img src="/images/renova.jpg" alt=""/>
                   </div>
                   <div className="row">
-                    <header>Design Services</header>
+                    <header>Organização e Gestão</header>
                     <ul className="mega-links">
-                      <li><a href="#">Graphics</a></li>
-                      <li><a href="#">Vectors</a></li>
-                      <li><a href="#">Business cards</a></li>
-                      <li><a href="#">Custom logo</a></li>
+                      <li><a href="#">Organização</a></li>
+                      <li><a href="#">Finanças e Patrimonio</a></li>
+                      <li><a href="#">Comunicação</a></li>
                     </ul>
                   </div>
                   <div className="row">
-                    <header>Email Services</header>
+                    <header>Desenvolvimento Estudantil</header>
                     <ul className="mega-links">
-                      <li><a href="#">Personal Email</a></li>
-                      <li><a href="#">Business Email</a></li>
-                      <li><a href="#">Mobile Email</a></li>
-                      <li><a href="#">Web Marketing</a></li>
+                      <li><a href="#">Integração Estudantil</a></li>
+                      <li><a href="#">Assistência e Promoção Estudantil</a></li>
+                      <li><a href="#">Ensino, Pesquisa e Extensão</a></li>
                     </ul>
                   </div>
                   <div className="row">
-                    <header>Security services</header>
+                    <header>Cultura e Reinvindicações</header>
                     <ul className="mega-links">
-                      <li><a href="#">Site Seal</a></li>
-                      <li><a href="#">VPS Hosting</a></li>
-                      <li><a href="#">Privacy Seal</a></li>
-                      <li><a href="#">Website design</a></li>
+                      <li><a href="#">Opressões</a></li>
+                      <li><a href="#">Assuntos Acadêmicos, Formação Política e Movimentos Sociais</a></li>
+                      <li><a href="#">Cultura, Esporte e Eventos</a></li>
                     </ul>
                   </div>
                 </div>
