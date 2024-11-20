@@ -16,7 +16,7 @@ export async function GET() {
     $("article.tileItem").each((index, element) => {
       const titulo = $(element).find("h2.tileHeadline a").text().trim();
       const link = $(element).find("h2.tileHeadline a").attr("href");
-      const data = $(element).find("span.icon-day").text().trim();
+      const data = $(element).find(".summary-view-icon i.icon-day").parent().text().trim(); // A data está dentro de um <span> com a classe "summary-view-icon"
       const hora = $(element).find("span.icon-hour").text().trim();
       const autor = $(element).find("span.hiddenStructure a").text().trim();
       const imagem = $(element).find(".tileImage img").attr("src"); // Coleta a URL da imagem

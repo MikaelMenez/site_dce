@@ -73,7 +73,7 @@ export default function Home() {
                   <img
                     alt={`Imagem de ${noticia.titulo}`}
                     className="object-cover w-full h-52 dark:bg-gray-500"
-                    src={noticia.imagem || "/images/default-news.jpg"}
+                    src={noticia.imagem || "/images/PRAPE.png"} // Usando imagem padrão se não houver imagem
                   />
                 </a>
                 <div className="flex flex-col flex-1 p-6">
