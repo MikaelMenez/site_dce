@@ -1,8 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-export const metadata: Metadata={
-title:"Portal DCE UFPB"
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Portal DCE UFPB',
+  description: 'O site do DCE da UFPB ',
 }
 export default function Home() {
   const [noticias, setNoticias] = useState([]);
