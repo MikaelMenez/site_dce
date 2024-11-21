@@ -47,7 +47,19 @@ export default function Footer(){
           >
             @dceufpb.oficial
           </a>
-        </p>
+          </p>
+
+          <p>
+           <a
+            href="./faq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sky-400 hover:underline"
+          >
+            perguntas frequentes
+           </a>
+          </p>
+          
       </div>
     </div>
   </div>

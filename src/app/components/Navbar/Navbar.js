@@ -4,7 +4,7 @@ export default function Navbar() {
       <nav>
         <div className="wrapper">
           <div className="logo">
-            <a href="#">
+            <a href="/">
                 <img src="/images/logodce.png" alt="Logo do DCE" className="h-12" />
             </a>
           </div>
