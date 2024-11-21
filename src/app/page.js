@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
+export const metadata: Metadata={
+title:"Portal DCE UFPB"
+}
 export default function Home() {
   const [noticias, setNoticias] = useState([]);
 
