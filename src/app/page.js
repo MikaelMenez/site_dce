@@ -22,6 +22,8 @@ export default function Home() {
 
   return (
     <>
+    <title>Site do DCE UFPB</title>
+    <meta name="description" content="Este é o site do DCE da UFPB"></meta>
       <section className="relative bg-sky-500 text-white">
         <div className="container mx-auto text-center py-80 px-6">
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-10">
