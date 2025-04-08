@@ -1,19 +1,23 @@
+import Link from 'next/link';
+
+
 export default function Navbar() {
   return (
     <>
-      <nav>
+      <nav style={{ backgroundColor: "#111827" }}>
         <div className="wrapper">
-          <div className="logo">
-            <a href="#">
-                <img src="/images/logodce.png" alt="Logo do DCE" className="h-12" />
-            </a>
-          </div>
+        <div className="logo">
+          <Link href="/">
+            <img src="/images/logodce.png" alt="Logo do DCE" className="h-12 cursor-pointer" />
+          </Link>
+        </div>
           <input type="radio" name="slider" id="menu-btn" />
           <input type="radio" name="slider" id="close-btn" />
           <ul className="nav-links">
             <label htmlFor="close-btn" className="btn close-btn">
               <i className="fas fa-times"></i>
             </label>
+
             <li>
               <a href="#manual-dos-feras">Manual do Fera</a>
             </li>
@@ -21,7 +25,13 @@ export default function Navbar() {
               <a href="#noticias">Representação Estudantil</a>
             </li>
             <li>
-              <a href="#noticias">Carteirinha</a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeAJQj4mPjLNkAA0QMwbcNYTAveXd0N72jc3QrOwzYqTMd6QA/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Carteirinha
+              </a>
             </li>
             <li>
               <a href="#noticias">Notícias</a>
@@ -30,18 +40,26 @@ export default function Navbar() {
               <a href="#contatos">Contatos</a>
             </li>
             <li>
-              <a href="#ouvidoria-faq">Ouvidoria</a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScAbN1ze1ad34cUflvi8gISjJ8IfU0qBdBrJi-tT7yF_T5VEw/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ouvidoria
+              </a>
             </li>
+
             {/* Dropdown Menu */}
             <li>
               <a href="#" className="desktop-item">Conselhos Superiores</a>
               <input type="checkbox" id="showDrop" />
               <label htmlFor="showDrop" className="mobile-item">Conselhos Superiores</label>
               <ul className="drop-menu">
-                <li><a href="#">CONSUNI</a></li>
-                <li><a href="#">CONSEPE</a></li>
+                <li><a href="/consuni">CONSUNI</a></li>
+                <li><a href="/consepe">CONSEPE</a></li>
               </ul>
             </li>
+
             {/* Mega Menu */}
             <li>
               <a href="#" className="desktop-item">Diretorias</a>
@@ -50,7 +68,7 @@ export default function Navbar() {
               <div className="mega-box">
                 <div className="content">
                   <div className="row">
-                    <img src="/images/renova.jpg" alt=""/>
+                    <img src="/images/renova.jpg" alt="" />
                   </div>
                   <div className="row">
                     <header>Organização e Gestão</header>
