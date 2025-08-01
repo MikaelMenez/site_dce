@@ -22,7 +22,7 @@ export default function Navbar() {
               <a href="#manual-dos-feras">Manual do Fera</a>
             </li>
             <li>
-              <a href="#noticias">Representação Estudantil</a>
+              <a href="#noticias">Representação</a>
             </li>
             <li>
               <a
@@ -37,7 +37,10 @@ export default function Navbar() {
               <a href="#noticias">Notícias</a>
             </li>
             <li>
-              <a href="#contatos">Contatos</a>
+              <a href="/sobre">Sobre</a>
+            </li>
+            <li>
+              <a href="/contatos">Contatos</a>
             </li>
             <li>
               <a
@@ -51,7 +54,7 @@ export default function Navbar() {
 
             {/* Dropdown Menu */}
             <li>
-              <a href="#" className="desktop-item">Conselhos Superiores</a>
+              <a href="#" className="desktop-item">Conselhos</a>
               <input type="checkbox" id="showDrop" />
               <label htmlFor="showDrop" className="mobile-item">Conselhos Superiores</label>
               <ul className="drop-menu">
@@ -62,7 +65,7 @@ export default function Navbar() {
 
             {/* Mega Menu */}
             <li>
-              <a href="#" className="desktop-item">Diretorias</a>
+              <a href="/diretorias" className="desktop-item">Diretorias</a>
               <input type="checkbox" id="showMega" />
               <label htmlFor="showMega" className="mobile-item">Diretorias</label>
               <div className="mega-box">
@@ -73,25 +76,25 @@ export default function Navbar() {
                   <div className="row">
                     <header>Organização e Gestão</header>
                     <ul className="mega-links">
-                      <li><a href="#">Organização</a></li>
-                      <li><a href="#">Finanças e Patrimonio</a></li>
-                      <li><a href="#">Comunicação</a></li>
+                      <li><a href="/diretorias/organizacao">Organização</a></li>
+                      <li><a href="/diretorias/financas-patrimonio">Finanças e Patrimônio</a></li>
+                      <li><a href="/diretorias/comunicacao">Comunicação</a></li>
                     </ul>
                   </div>
                   <div className="row">
                     <header>Desenvolvimento Estudantil</header>
                     <ul className="mega-links">
-                      <li><a href="#">Integração Estudantil</a></li>
-                      <li><a href="#">Assistência e Promoção Estudantil</a></li>
-                      <li><a href="#">Ensino, Pesquisa e Extensão</a></li>
+                      <li><a href="/diretorias/integracao-estudantil">Integração Estudantil</a></li>
+                      <li><a href="/diretorias/assistencia-promocao-estudantil">Assistência e Promoção Estudantil</a></li>
+                      <li><a href="/diretorias/ensino-pesquisa-extensao">Ensino, Pesquisa e Extensão</a></li>
                     </ul>
                   </div>
                   <div className="row">
-                    <header>Cultura e Reinvindicações</header>
+                    <header>Cultura e Reivindicações</header>
                     <ul className="mega-links">
-                      <li><a href="#">Opressões</a></li>
-                      <li><a href="#">Assuntos Acadêmicos, Formação Política e Movimentos Sociais</a></li>
-                      <li><a href="#">Cultura, Esporte e Eventos</a></li>
+                      <li><a href="/diretorias/opressoes">Opressões</a></li>
+                      <li><a href="/diretorias/assuntos-academicos-formacao-politica">Assuntos Acadêmicos, Formação Política</a></li>
+                      <li><a href="/diretorias/cultura-esporte-eventos">Cultura, Esporte e Eventos</a></li>
                     </ul>
                   </div>
                 </div>
